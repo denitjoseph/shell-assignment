@@ -33,8 +33,14 @@ This project demonstrates how to monitor an AWS EC2 Ubuntu instance using a Bash
 
 ```
 shell-assignment/
-│── monitor.sh
-│── monitor_logs.txt
+├── images/
+│   ├── cron-job.png
+│   ├── git-init-status.png
+│   ├── git-push.png
+│   ├── monitor-output.png
+│   └── ssh-login.png
+├── monitor.sh
+├── monitor_logs.txt
 └── README.md
 ```
 
@@ -105,11 +111,25 @@ crontab -l
 
 ## 📸 Screenshots Included
 
-- AWS EC2 Instance
-- monitor.sh Execution
-- monitor_logs.txt Output
-- Cron Job Configuration
-- GitHub Repository
+### 1. Git Initialization & Status
+Shows the initialization of the local Git repository and checking status.
+![Git Init & Status](images/git-init-status.png)
+
+### 2. SSH Connection & Running Script
+Shows SSH connection to the AWS EC2 Ubuntu instance and launching the monitoring script.
+![SSH Connection & Running Script](images/ssh-login.png)
+
+### 3. Monitoring Script Output
+Shows the system monitoring report output.
+![Monitoring Script Output](images/monitor-output.png)
+
+### 4. Git Commit & Push
+Shows the successful Git commit and pushing the code to the GitHub repository.
+![Git Commit & Push](images/git-push.png)
+
+### 5. Cron Job Configuration
+Shows the automated cron job scheduled using `crontab -l`.
+![Cron Job Configuration](images/cron-job.png)
 
 ---
 
